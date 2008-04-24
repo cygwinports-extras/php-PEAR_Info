@@ -1,0 +1,82 @@
+php-PEAR_Info
+------------------------------------------
+This package generates a comprehensive information page for your 
+current PEAR install.
+
+Runtime requirements:
+  php-5.2.5-1
+  php-Console_Getargs-1.3.4-1
+  php-pear-5.2.5-1
+
+Canonical website:
+  http://pear.php.net/package/PEAR_Info/
+
+Canonical download:
+  http://pear.php.net/get/PEAR_Info
+
+-------------------------------------------
+
+Build instructions:
+  unpack php-PEAR_Info-1.8.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./php-PEAR_Info-1.8.0-X.cygport all
+
+This will create:
+  /usr/src/php-PEAR_Info-1.8.0-X-src.tar.bz2
+  /usr/src/php-PEAR_Info-1.8.0-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/pearinfo
+  /usr/share/pear/.registry/pear_info.reg
+  /usr/share/pear/PEAR/Info.php
+  /usr/share/pear/PEAR/Info/Cli.php
+  /usr/share/pear/data/PEAR_Info/pearinfo.css
+  /usr/share/pear/doc/PEAR_Info/examples/blueskin.css
+  /usr/share/pear/doc/PEAR_Info/examples/pear_info.php
+  /usr/share/pear/doc/PEAR_Info/examples/pear_info2.php
+  /usr/share/pear/doc/PEAR_Info/examples/pear_info3.php
+  /usr/share/pear/doc/PEAR_Info/examples/pear_info4.php
+  /usr/share/pear/doc/PEAR_Info/examples/pear_info5.php
+  /usr/share/pear/doc/PEAR_Info/examples/pear_info6.php
+  /usr/share/pear/doc/PEAR_Info/examples/pear_info7.php
+  /usr/share/pear/doc/PEAR_Info/examples/pearinfo3.css
+  /usr/share/pear/test/PEAR_Info/tests/AllTests.php
+  /usr/share/pear/test/PEAR_Info/tests/PEAR_Info_TestSuite_Standard.php
+  /usr/share/pear/test/PEAR_Info/tests/customConfig.phpt
+  /usr/share/pear/test/PEAR_Info/tests/defaultConfig.phpt
+  /usr/share/pear/test/PEAR_Info/tests/install.phpt
+  /usr/share/pear/test/PEAR_Info/tests/pear2_dir/empty_dir.txt
+  /usr/share/pear/test/PEAR_Info/tests/pear_dir/.channels/.alias/pear.txt
+  /usr/share/pear/test/PEAR_Info/tests/pear_dir/.channels/.alias/pecl.txt
+  /usr/share/pear/test/PEAR_Info/tests/pear_dir/.channels/.alias/phpunit.txt
+  /usr/share/pear/test/PEAR_Info/tests/pear_dir/.channels/__uri.reg
+  /usr/share/pear/test/PEAR_Info/tests/pear_dir/.channels/pear.php.net.reg
+  /usr/share/pear/test/PEAR_Info/tests/pear_dir/.channels/pear.phpunit.de.reg
+  /usr/share/pear/test/PEAR_Info/tests/pear_dir/.channels/pecl.php.net.reg
+  /usr/share/pear/test/PEAR_Info/tests/pear_dir/.registry/.channel.__uri/empty_dir.txt
+  /usr/share/pear/test/PEAR_Info/tests/pear_dir/.registry/.channel.pear.phpunit.de/phpunit.reg
+  /usr/share/pear/test/PEAR_Info/tests/pear_dir/.registry/.channel.pecl.php.net/empty_dir.txt
+  /usr/share/pear/test/PEAR_Info/tests/pear_dir/.registry/console_getopt.reg
+  /usr/share/pear/test/PEAR_Info/tests/pear_dir/.registry/pear.reg
+  /usr/share/pear/test/PEAR_Info/tests/pear_dir/.registry/text_diff.reg
+  /usr/share/pear/test/PEAR_Info/tests/sysconf_dir/empty_dir.txt
+  /usr/share/pear/test/PEAR_Info/tests/templates/credits.tpl
+  /usr/share/pear/test/PEAR_Info/tests/templates/general.tpl
+  /usr/share/pear/test/PEAR_Info/tests/templates/packages.tpl
+  /usr/share/pear/test/PEAR_Info/tests/user_dir/empty_dir.txt
+
+------------------
+
+Port Notes:
+
+----- version 1.8.0-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

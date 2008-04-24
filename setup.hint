@@ -1,0 +1,5 @@
+category: PHP
+requires: php php-pear php-Console_Getargs
+sdesc: "PEAR information package"
+ldesc: "This package generates a comprehensive information page for your 
+current PEAR install."
